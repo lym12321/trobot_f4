@@ -1,0 +1,13 @@
+.idea
+build
+cmake
+Core
+Drivers
+Middlewares
+USB_DEVICE
+.mxproject
+CMakePresets.json
+startup_stm32f407xx.s
+STM32F407XX_FLASH.ld
+components/*
+!components/CMakeLists.txt

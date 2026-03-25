@@ -1,0 +1,21 @@
+[submodule "components/cmsis-dsp"]
+	path = components/cmsis-dsp
+	url = https://github.com/lym12321/tr_comp_cmsis_dsp.git
+[submodule "components/controller"]
+	path = components/controller
+	url = https://github.com/lym12321/tr_comp_controller.git
+[submodule "components/ins"]
+	path = components/ins
+	url = https://github.com/lym12321/tr_comp_ins.git
+[submodule "components/math"]
+	path = components/math
+	url = https://github.com/lym12321/tr_comp_math.git
+[submodule "components/motor"]
+	path = components/motor
+	url = https://github.com/lym12321/tr_comp_motor.git
+[submodule "components/rc"]
+	path = components/rc
+	url = https://github.com/lym12321/tr_comp_rc.git
+[submodule "components/utils"]
+	path = components/utils
+	url = https://github.com/lym12321/tr_comp_utils.git
