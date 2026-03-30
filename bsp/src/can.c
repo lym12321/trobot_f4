@@ -98,7 +98,7 @@ void HAL_CAN_RxFifo0MsgPendingCallback(CAN_HandleTypeDef *device) {
     }
 }
 
-void HAL_CAN_RxFif10MsgPendingCallback(CAN_HandleTypeDef *device) {
+void HAL_CAN_RxFifo1MsgPendingCallback(CAN_HandleTypeDef *device) {
     for(uint8_t i = 0; i < BSP_CAN_DEVICE_COUNT; i++) {
         if(handle[i] == device) {
             bsp_can_callback_sol(i, CAN_RX_FIFO1);
